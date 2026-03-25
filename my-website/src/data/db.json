@@ -1,0 +1,84 @@
+{
+  "education": [
+    {
+      "id": 1,
+      "school": "Virginia Tech",
+      "degree": "Master of Engineering in Computer Science",
+      "concentration": "Concentration in Software Engineering",
+      "date": "Spring 2026"
+    },
+    {
+      "id": 2,
+      "school": "Virginia Tech",
+      "degree": "Bachelor of Science in Computer Science",
+      "concentration": "Minor in Music Technology",
+      "date": "Spring 2025"
+    }
+  ],
+
+  "experience": [
+    {
+      "id": 1,
+      "title": "Undergraduate Research Assistant",
+      "organization": "Virginia Tech Computer Science Department",
+      "date": "Fall 2024",
+      "description": "During my senior year at Virginia Tech, I worked as an undergraduate research assistant in one of the Human Computer Interaction labs. My work involved developing a mobile application for hikers on the Appalachian Trail, as well as researching successful notification systems for hikers. I gained more experience with frontend design and development. This project exposed me to new frameworks such as React Native, and it gave me the opportunity to work with and manage a team of undergraduate students to develop something new."
+    },
+    {
+      "id": 2,
+      "title": "Undergraduate Teaching Assistant",
+      "organization": "Virginia Tech Computer Science Department - CS 3114",
+      "date": "Summer 2024",
+      "description": "During the summer of 2024, I worked as an undergraduate teaching assistant for the CS 3114 course at Virginia Tech. This course (Data Structures and Algorithms) is a core course for Computer Science majors that dives deeper into object oriented programming, data structures, and algorithms. My role as a teaching assistant involved helping students understand course material, holding office hours to assist students struggling with assignments, and answering their questions on an online forum. This experience helped me improve my communication skills and deepened my understanding of the course material."
+    },
+    {
+      "id": 3,
+      "title": "Technology Intern",
+      "organization": "Republican National Committee",
+      "date": "Summer 2025",
+      "description": "During the summer of 2025, I worked as a Technology Intern for the Republican National Committee. My primary responsibility was developing an internal, full-stack web application utilizing the Python Django framework. I collaborated with cross-functional teams, designed user interfaces, built RESTful APIs, and optimized database queries for performance."
+    }
+  ],
+
+  "projects": [
+    {
+      "id": 1,
+      "title": "Retail Inventory System (Graduate Capstone Project)",
+      "description": "Developing a full-stack web application for Marine Corps Community Services to identify inventory issues and provide real-time visibility. Integrated with a machine learning pipeline for automated detection and inventory management. Architected scalable backend services with Spring Boot and developed a responsive frontend for seamless user interaction.",
+      "technologies": ["Spring Boot", "React", "Material UI", "Machine Learning", "Full Stack"],
+      "date": "January 2026 - Present",
+      "link": ""
+    },
+    {
+      "id": 2,
+      "title": "Full Stack Budgeting Application",
+      "description": "Designed and developed a comprehensive budgeting web application that enables users to track income and expenses efficiently. Built a secure backend using FastAPI and SQLModel with JWT-based authentication for data protection. Implemented a dynamic, component-driven frontend using React and TypeScript with intuitive user interface for financial management.",
+      "technologies": ["FastAPI", "SQLModel", "React", "TypeScript", "JWT Authentication"],
+      "date": "December 2025 - Present",
+      "link": "https://github.com/cbarreiro1/budgeting-app"
+    },
+    {
+      "id": 3,
+      "title": "Full Stack Bookstore Application",
+      "description": "Developed a full-stack web application for a bookstore system using a relational database for data persistence. Implemented Java-based backend services with RESTful APIs for seamless data communication. Created a TypeScript/React frontend with reusable components and modern design patterns to provide an engaging user experience.",
+      "technologies": ["Java", "React", "TypeScript", "REST APIs", "Relational Database"],
+      "date": "August 2025 - December 2025",
+      "link": "https://github.com/cbarreiro1/bookstore-website-project"
+    },
+    {
+      "id": 4,
+      "title": "Appalachian Trail Hiker Mobile Application",
+      "description": "Developed a mobile application designed to enhance the hiking experience on the Appalachian Trail. The application includes features for trail navigation, notification systems for alerts and updates, and user-friendly interface design. Worked as part of a team managing multiple undergraduate student developers.",
+      "technologies": ["React Native", "TypeScript", "Mobile Development", "HCI"],
+      "date": "Fall 2024",
+      "link": ""
+    }
+  ],
+  
+  "contact": {
+    "email": "cjbarreiro@vt.edu",
+    "github": "https://github.com/cbarreiro1",
+    "linkedin": "https://www.linkedin.com/in/cj-barreiro-731275222/",
+    "resume": "/CJ_Barreiro_Resume.pdf"
+  }
+}

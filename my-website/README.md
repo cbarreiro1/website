@@ -1,6 +1,100 @@
-# React + TypeScript + Vite
+# CJ Barreiro's Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A professional portfolio website showcasing projects, experience, and skills in software engineering.
+
+## Tech Stack
+
+- **Frontend**: React 19 + TypeScript
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS
+- **Routing**: React Router v6
+- **Package Manager**: npm
+
+## Getting Started
+
+### Prerequisites
+- Node.js 16+ and npm
+
+### Installation
+
+```bash
+npm install
+```
+
+### Development
+
+```bash
+npm run dev
+```
+
+Visit `http://localhost:5173` in your browser.
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+The optimized build will be in the `dist/` folder.
+
+### Preview Production Build
+
+```bash
+npm run preview
+```
+
+## Deployment
+
+### Deploy to Vercel (Recommended)
+
+1. Push your code to GitHub
+2. Go to [vercel.com](https://vercel.com)
+3. Click "Add New..." → "Project"
+4. Import your GitHub repository
+5. Vercel will auto-detect Vite settings
+6. Click "Deploy"
+
+Your site will be live at `your-project.vercel.app`
+
+### Deploy to Netlify
+
+1. Push your code to GitHub
+2. Go to [netlify.com](https://netlify.com)
+3. Click "Add new site" → "Import an existing project"
+4. Select your GitHub repository
+5. Build command: `npm run build`
+6. Publish directory: `dist`
+7. Click "Deploy site"
+
+## Project Structure
+
+```
+src/
+├── components/        # Reusable components
+│   ├── Header.tsx    # Navigation header
+│   ├── EducationCard.tsx
+│   ├── ExperienceCard.tsx
+│   └── ProjectCard.tsx
+├── pages/            # Page components
+│   ├── AboutMe.tsx
+│   ├── Experience.tsx
+│   ├── Projects.tsx
+│   └── Contact.tsx
+├── data/
+│   └── db.json       # Centralized data
+└── App.tsx           # Main app with routing
+```
+
+## Performance
+
+- Production build size: ~72 KB (gzipped)
+- Responsive design (mobile, tablet, desktop)
+- SEO optimized with meta tags
+- Fast load times with Vite
+
+## License
+
+© 2026 CJ Barreiro
 
 Currently, two official plugins are available:
 
