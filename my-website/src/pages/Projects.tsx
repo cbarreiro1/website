@@ -1,10 +1,17 @@
 // my-website/src/pages/Projects.tsx
 // Projects page
 
+import { useCallback } from 'react';
 import ProjectCard from '../components/ProjectCard';
 import data from '../data/db.json' with { type: 'json' };
+import { useAnalytics } from '../hooks/useAnalytics';
 
 function Projects() {
+    const { trackExternalLink } = useAnalytics();
+
+    const handleGitHubClick = useCallback(() => {
+        trackExternalLink('github');
+    }, [trackExternalLink]);
 
     return (
         <div className="flex flex-col px-6 sm:px-10 md:px-20 py-10 max-w-6xl mx-auto">
@@ -18,6 +25,9 @@ function Projects() {
                 </h2>
                 <a
                     href={data.contact.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={handleGitHubClick}
                     className="text-blue-600 hover:text-blue-800 text-lg font-medium transition-colors"
                 >
                     GitHub Profile
