@@ -16,7 +16,7 @@ function Header() {
 
     return (
         <div 
-            className="flex flex-col bg-cover bg-center sticky top-0 z-50 shadow-lg"
+            className="flex flex-col bg-cover bg-center relative md:sticky md:top-0 z-50 shadow-lg"
             style={{ backgroundImage: `url(${banner})` }}
         >
             <div className="flex flex-col sm:flex-row items-center justify-start gap-4 sm:gap-8 py-6 px-6 sm:px-10 md:px-12 bg-gradient-to-r from-slate-900/90 to-slate-800/90">

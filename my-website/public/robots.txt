@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cjbarreiro.com/sitemap.xml
+
+# Disallow crawling of internal routes that shouldn't be indexed
+Disallow: /api/

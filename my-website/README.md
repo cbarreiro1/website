@@ -13,6 +13,7 @@ A professional portfolio website showcasing projects, experience, and skills in 
 ## Getting Started
 
 ### Prerequisites
+
 - Node.js 16+ and npm
 
 ### Installation
@@ -43,7 +44,40 @@ The optimized build will be in the `dist/` folder.
 npm run preview
 ```
 
+## Environment Configuration
+
+For any future environment-specific variables (API keys, analytics IDs, etc.):
+
+1. Copy `.env.example` to `.env.local`:
+
+   ```bash
+   cp .env.example .env.local
+   ```
+
+2. Add your environment variables to `.env.local` (this file is git-ignored)
+
+3. Access in your code:
+   ```tsx
+   const apiUrl = import.meta.env.VITE_API_URL;
+   ```
+
 ## Deployment
+
+### Pre-Deployment Checklist
+
+Before deploying to production, ensure the following:
+
+- [ ] All public files exist in `public/` folder:
+  - `headshot.jpeg`
+  - `headshot-circle.png`
+  - `CJ_Barreiro_Resume.pdf`
+- [ ] Run `npm run lint` to check for code issues
+- [ ] Run `npm run build` and `npm run preview` locally to test production build
+- [ ] Test responsive design on mobile, tablet, and desktop
+- [ ] Test all links open in new tabs correctly
+- [ ] Verify PDF preview and download buttons work on both desktop and mobile
+- [ ] Update custom domain in `index.html` og:url meta tag if not using `vercel.app`
+- [ ] Review all content for typos and accuracy
 
 ### Deploy to Vercel (Recommended)
 
@@ -51,7 +85,7 @@ npm run preview
 2. Go to [vercel.com](https://vercel.com)
 3. Click "Add New..." → "Project"
 4. Import your GitHub repository
-5. Vercel will auto-detect Vite settings
+5. Vercel will auto-detect Vite settings from `vercel.json`
 6. Click "Deploy"
 
 Your site will be live at `your-project.vercel.app`
@@ -95,69 +129,3 @@ src/
 ## License
 
 © 2026 CJ Barreiro
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
