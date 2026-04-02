@@ -84,7 +84,7 @@ function Contact() {
                         </a>
                         <a
                             href={data.contact.resume}
-                            download="CJ_Barreiro_Resume.pdf"
+                            download="C.Barreiro_Resume.pdf"
                             onClick={handlePDFDownload}
                             className="flex-1 bg-gray-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-gray-700 transition-colors text-center"
                         >
@@ -100,7 +100,7 @@ function Contact() {
                             href={data.contact.resume}
                             target="_blank"
                             rel="noopener noreferrer"
-                            download="CJ_Barreiro_Resume.pdf"
+                            download="C.Barreiro_Resume.pdf"
                             onClick={handlePDFDownload}
                             className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors"
                         >
