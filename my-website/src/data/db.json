@@ -19,24 +19,24 @@
   "experience": [
     {
       "id": 1,
+      "title": "Technology Intern",
+      "organization": "Republican National Committee",
+      "date": "Summer 2025",
+      "description": "During the summer of 2025, I worked as a Technology Intern for the Republican National Committee. My primary responsibility was developing an internal, full-stack web application utilizing the Python Django framework. I collaborated with cross-functional teams, designed user interfaces, built RESTful APIs, and optimized database queries for performance."
+    },
+    {
+      "id": 2,
       "title": "Undergraduate Research Assistant",
       "organization": "Virginia Tech Computer Science Department",
       "date": "Fall 2024",
       "description": "During my senior year at Virginia Tech, I worked as an undergraduate research assistant in one of the Human Computer Interaction labs. My work involved developing a mobile application for hikers on the Appalachian Trail, as well as researching successful notification systems for hikers. I gained more experience with frontend design and development. This project exposed me to new frameworks such as React Native, and it gave me the opportunity to work with and manage a team of undergraduate students to develop something new."
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "Undergraduate Teaching Assistant",
       "organization": "Virginia Tech Computer Science Department - CS 3114",
       "date": "Summer 2024",
       "description": "During the summer of 2024, I worked as an undergraduate teaching assistant for the CS 3114 course at Virginia Tech. This course (Data Structures and Algorithms) is a core course for Computer Science majors that dives deeper into object oriented programming, data structures, and algorithms. My role as a teaching assistant involved helping students understand course material, holding office hours to assist students struggling with assignments, and answering their questions on an online forum. This experience helped me improve my communication skills and deepened my understanding of the course material."
-    },
-    {
-      "id": 3,
-      "title": "Technology Intern",
-      "organization": "Republican National Committee",
-      "date": "Summer 2025",
-      "description": "During the summer of 2025, I worked as a Technology Intern for the Republican National Committee. My primary responsibility was developing an internal, full-stack web application utilizing the Python Django framework. I collaborated with cross-functional teams, designed user interfaces, built RESTful APIs, and optimized database queries for performance."
     }
   ],
 

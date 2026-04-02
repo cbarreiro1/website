@@ -32,27 +32,10 @@ function Experience() {
 
             <div className="mb-12">
                 <h2 className="text-3xl font-bold text-gray-800 mb-6 pb-3 border-b-2 border-blue-500">
-                    Technical Experience
+                    Experience
                 </h2>
                 <div className="space-y-6">
-                    {data.experience.slice(0, 2).map(exp => (
-                        <ExperienceCard
-                            key={exp.id}
-                            title={exp.title}
-                            organization={exp.organization}
-                            date={exp.date}
-                            description={exp.description}
-                        />
-                    ))}
-                </div>
-            </div>
-
-            <div>
-                <h2 className="text-3xl font-bold text-gray-800 mb-6 pb-3 border-b-2 border-blue-500">
-                    Professional Experience
-                </h2>
-                <div className="space-y-6">
-                    {data.experience.slice(2).map(exp => (
+                    {data.experience.map(exp => (
                         <ExperienceCard
                             key={exp.id}
                             title={exp.title}
