@@ -26,7 +26,12 @@ function Header() {
                     alt="CJ Barreiro"
                 />
                 <div className="flex flex-col items-start justify-center gap-1">
-                    <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white">Christopher (CJ) Barreiro Jr.</h1>
+                    <Link 
+                        className="text-3xl sm:text-4xl md:text-5xl font-bold text-white"
+                        to="/"
+                    >
+                        Christopher (CJ) Barreiro Jr.
+                    </Link>
                     <p className="text-sm sm:text-base md:text-lg text-gray-200">Software Engineering Graduate Student</p>
                 </div>
             </div>

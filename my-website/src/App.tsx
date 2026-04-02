@@ -22,10 +22,13 @@ function AppContent() {
     }
   }, [initializeGA4]);
 
-  // Track page views when route changes
+  // Track page views and scroll to top when route changes
   useEffect(() => {
-    const pageTitle = location.pathname === '/' ? 'Home' : location.pathname.replace('/', '');
+    const pageTitle = location.pathname === '/' ? 'About Me' : location.pathname.replace('/', '');
     trackPageView(location.pathname, pageTitle);
+    
+    // Scroll to top of page
+    window.scrollTo(0, 0);
   }, [location, trackPageView]);
 
   return (
