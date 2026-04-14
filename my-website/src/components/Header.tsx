@@ -30,7 +30,7 @@ function Header() {
                         className="text-3xl sm:text-4xl md:text-5xl font-bold text-white"
                         to="/"
                     >
-                        Christopher (CJ) Barreiro Jr.
+                        Christopher (C.J.) Barreiro Jr.
                     </Link>
                     <p className="text-sm sm:text-base md:text-lg text-gray-200">Software Engineering Graduate Student</p>
                 </div>
