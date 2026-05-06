@@ -22,21 +22,21 @@
       "title": "Technology Intern",
       "organization": "Republican National Committee",
       "date": "Summer 2025",
-      "description": "During the summer of 2025, I worked as a Technology Intern for the Republican National Committee. My primary responsibility was developing an internal, full-stack web application utilizing the Python Django framework. I collaborated with cross-functional teams, designed user interfaces, built RESTful APIs, and optimized database queries for performance."
+      "description": "As a Technology Intern for the Republican National Committee in summer 2025, I built an internal full-stack web application using Django, Python, and PostgreSQL. I worked across the stack—designing user interfaces, developing RESTful APIs, and improving database performance through query optimization. Collaborating with cross-functional teams, I contributed to delivering a scalable, production-ready tool while strengthening my experience in backend architecture and full-stack development. This internship provided valuable insights into the technology needs of different types of organizations and enhanced my skills in building impactful applications under tight deadlines."
     },
     {
       "id": 2,
       "title": "Undergraduate Research Assistant",
       "organization": "Virginia Tech Computer Science Department",
       "date": "Summer & Fall 2024",
-      "description": "During my senior year at Virginia Tech, I worked as an undergraduate research assistant in one of the Human Computer Interaction labs. My work involved developing a mobile application for hikers on the Appalachian Trail, as well as researching successful notification systems for hikers. I gained more experience with frontend design and development. This project exposed me to new frameworks such as React Native, and it gave me the opportunity to work with and manage a team of undergraduate students to develop something new."
+      "description": "During my senior year at Virginia Tech, I worked as an undergraduate research assistant in a Human-Computer Interaction lab, developing a mobile application for Appalachian Trail hikers. I focused on frontend development using React Native and conducted research on effective notification systems to improve engagement in low-connectivity environments. I also worked with and led a team of undergraduate students, contributing to both the technical implementation and overall product design. This experience enhanced my skills in mobile development, user experience design, and team collaboration."
     },
     {
       "id": 3,
       "title": "Undergraduate Teaching Assistant",
       "organization": "Virginia Tech Computer Science Department - CS 3114",
       "date": "Summer 2024",
-      "description": "During the summer of 2024, I worked as an undergraduate teaching assistant for the CS 3114 course at Virginia Tech. This course (Data Structures and Algorithms) is a core course for Computer Science majors that dives deeper into object oriented programming, data structures, and algorithms. My role as a teaching assistant involved helping students understand course material, holding office hours to assist students struggling with assignments, and answering their questions on an online forum. This experience helped me improve my communication skills and deepened my understanding of the course material."
+      "description": "During the summer of 2024, I worked as an undergraduate teaching assistant for CS 3114 (Data Structures and Algorithms) at Virginia Tech. I guided students through complex topics including object-oriented programming, data structures, and algorithms by leading office hours and providing support through an online forum. Through this role, I improved my ability to break down technical concepts and strengthened my own understanding of foundational computer science topics. This experience also enhanced my communication skills and ability to work with diverse groups of students, fostering a collaborative learning environment."
     }
   ],
 
