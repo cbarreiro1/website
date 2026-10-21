@@ -32,7 +32,7 @@ function Header() {
                     >
                         Christopher (C.J.) Barreiro Jr.
                     </Link>
-                    <p className="text-sm sm:text-base md:text-lg text-gray-200">Software Engineering Graduate Student</p>
+                    <p className="text-sm sm:text-base md:text-lg text-gray-200">Software Developer II</p>
                 </div>
             </div>
             <nav className="flex flex-row items-center justify-center gap-4 sm:gap-8 md:gap-12 py-4 px-6 sm:px-10 md:px-12 bg-slate-900/95 border-t border-slate-700">
